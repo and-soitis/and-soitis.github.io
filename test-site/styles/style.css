@@ -1,0 +1,53 @@
+html {
+  font-size: 16px; /* px means "pixels": the base font size is now 10 pixels high  */
+  font-family: "Xanh Mono", sans-serif; /* this should be the rest of the output you got from Google fonts */
+}
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 14px;
+  text-align: left;
+}
+
+h3 {
+  font-size: 14px;
+  text-align: right;
+}
+
+
+}
+
+p, li {
+  font-size: 30px;    
+  line-height: 2;
+  letter-spacing: 5px;
+}
+
+html {
+  background-color: #39E962;
+}
+
+body {
+  width: 600px;
+  margin: 0 auto;
+  background-color: #FBFDFC;
+  padding: 0 20px 20px 20px;
+  border: 5px solid black;
+}
+
+h1{
+  margin: 0;
+  padding: 20px 0;
+  color:  #39E962;
+  text-shadow: 5px 20px 10px black;
+}
+
+img {
+  display: block; /* unlike the <body> which is a block element - can have margin and other spacing values appied to it, images are 'inline' elements, it is not possible to apply margin or spacing values. We must give the image block-level behaviour using display:block; */
+  margin: 0 auto;
+  width: 300px;
+}
